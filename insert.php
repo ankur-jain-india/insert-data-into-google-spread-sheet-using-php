@@ -1,7 +1,7 @@
 <?php
 
 include 'spreadsheet.php';
-$Spreadsheet = new Spreadsheet("ankurjain5710@gmail.com", "123ankur123");
+$Spreadsheet = new Spreadsheet("demo@gmail.com", "password");
 $Spreadsheet->
         setSpreadsheet("information")->
         setWorksheet("Sheet1")->
